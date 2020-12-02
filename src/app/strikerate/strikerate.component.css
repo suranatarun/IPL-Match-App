@@ -1,0 +1,51 @@
+input {
+  padding: 1%;
+  width: 100%;
+  border-radius: 5px;
+  background: transparent;
+  -webkit-box-shadow: 3px 3px 20px 3px #c7c7c7;
+          box-shadow: 3px 3px 20px 3px #c7c7c7;
+  color: #5c5c5c;
+  border: none;
+}
+
+.card {
+  border: none;
+  -webkit-box-shadow: 1px 1px 20px 3px #aaaaaa;
+          box-shadow: 1px 1px 20px 3px #aaaaaa;
+  margin: 2%;
+  padding: 1%;
+  border-radius: 10px;
+}
+
+h3 {
+  font-family: 'Arial Rounded MT';
+  text-align: center;
+  font-size: 35px;
+  color: #c60021;
+}
+
+p {
+  color: #727070;
+  font-family: 'Arial Rounded MT';
+  text-align: center;
+  font-size: 15px;
+  letter-spacing: 2px;
+}
+
+button {
+  border: none;
+  background: transparent;
+  width: 200px;
+  margin: auto;
+  display: block;
+  padding: 0.5%;
+  border-radius: 10px;
+  border: 2px solid #bebcbc;
+  color: #727070;
+  font-family: 'Arial Rounded MT';
+  text-align: center;
+  font-size: 15px;
+  letter-spacing: 2px;
+}
+/*# sourceMappingURL=strikerate.component.css.map */

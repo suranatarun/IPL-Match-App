@@ -1,0 +1,52 @@
+<input type="text" placeholder="Search" [(ngModel)]="search">
+<div>
+    <div style="overflow-x:auto;">
+        <table>
+           <thead>
+            <tr>
+                <th scope="col" class="id">ID</th>
+                <th scope="col" class="season">IPL_Season</th>
+                <th scope="col" class="city">City</th>
+                <th scope="col" class="date">Date</th>
+                <th scope="col" class="team1">Team_1</th>
+                <th scope="col" class="team2">Team_2</th>
+                <th scope="col" class="tossw">Toss_Win</th>
+                <th scope="col" class="tossd">Toss_Decision</th>
+                <th scope="col" class="result">Result</th>
+                <th scope="col" class="dl">DL_Applied</th>
+                <th scope="col" class="winner">Winner</th>
+                <th scope="col" class="winR">Win_By_Run</th>
+                <th scope="col" class="winW">Win_By_Wicket</th> 
+                <th scope="col" class="pMatch">Player_of_the_Match</th>
+                <th scope="col" class="venue">Venue</th>
+                <th scope="col" class="um1">Umpire_1</th>
+                <th scope="col" class="um2">Umpire_2</th>
+                <th scope="col" class="um2">Umpire_3</th>
+            </tr>
+           </thead>
+           <tbody>
+            <tr *ngFor="let eachmatch of allmatchesdata | paginate: { itemsPerPage: 100, currentPage: p } | filter: search">
+                <td class="id">{{eachmatch?.id}}</td>
+                <td class="season">{{eachmatch?.Season}}</td>
+                <td class="city">{{eachmatch?.city}}</td>
+                <td class="date">{{eachmatch?.date}}</td>
+                <td class="team1">{{eachmatch?.team1}}</td>
+                <td class="team2">{{eachmatch?.team2}}</td>
+                <td class="tossw">{{eachmatch?.toss_winner}}</td>
+                <td class="tossd">{{eachmatch?.toss_decision}}</td>
+                <td class="result">{{eachmatch?.result | uppercase}}</td>
+                <td class="dl">{{eachmatch?.dl_applied}}</td>
+                <td class="winner">{{eachmatch?.winner}}</td>
+                <td class="winR">{{eachmatch?.win_by_runs}}</td>
+                <td class="winW">{{eachmatch?.win_by_wickets}}</td>
+                <td class="pMatch">{{eachmatch?.player_of_match}}</td>
+                <td class="venue">{{eachmatch?.venue}}</td>
+                <td class="um1">{{eachmatch?.umpire1}}</td>
+                <td class="um2">{{eachmatch?.umpire2}}</td>
+                <td class="um3">{{eachmatch?.umpire3}}</td>
+            </tr>
+           </tbody>
+        </table>
+    </div>
+    <pagination-controls (pageChange)="p = $event"></pagination-controls>
+</div>

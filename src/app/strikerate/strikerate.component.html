@@ -1,0 +1,16 @@
+<input type="text" placeholder="Search" [(ngModel)]="search">
+<div class="container">
+    <h1 class="text-center display-4">Most Runs Average StrikeRate</h1>
+    <div class="row">
+        <div *ngFor="let singlepersondetail of allmostruns | filter: search" class="col-md-4">
+            <div class="card">
+                <h3>{{singlepersondetail?.batsman}}</h3>
+                <p>{{singlepersondetail?.total_runs}} Runs</p>
+                <p>{{singlepersondetail?.numberofballs}} Balls</p>
+                <p>{{singlepersondetail?.average | number: '1.'}}%</p>
+                <p>{{singlepersondetail?.strikerate | number: '1.'}}%</p>
+                <button (click)="openDialog(singlepersondetail)">See Visualize Chart</button>
+            </div>
+        </div>
+    </div>
+</div>

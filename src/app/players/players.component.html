@@ -1,0 +1,12 @@
+<input type="text" placeholder="Search" [(ngModel)]="search">
+<div class="row">
+    <div *ngFor="let eachplayer of allplayers | filter: search" class="col-md-4">
+        <div class="card">
+            <h1>{{eachplayer?.Player_Name}}</h1>
+            <p>{{eachplayer?.DOB}}</p>
+            <p>{{eachplayer?.Batting_Hand}}</p>
+            <p>{{eachplayer?.Bowling_Skill}}</p>
+            <p>{{eachplayer?.Country}}</p>
+        </div>
+    </div>
+</div>

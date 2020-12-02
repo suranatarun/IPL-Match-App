@@ -1,0 +1,128 @@
+input {
+    padding:1%;
+    width:100%;
+    border-radius:5px;
+    background:transparent;
+    box-shadow:3px 3px 20px 3px rgb(199, 199, 199);
+    color:rgb(92, 92, 92);
+    border:none;
+}
+table {
+    margin-top:2%;
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+}
+td {
+    border-bottom:1px solid rgb(185, 180, 180);
+}
+th.match_id{
+    padding:0px 30px 0px 0px;
+    color:#929191;
+    font-family:'Arial Rounded MT';
+}
+th.inning{
+    padding:0px 30px 0px 0px;
+    color:#929191;
+    font-family:'Arial Rounded MT';
+}
+th.battingteam{
+    padding:0px 100px 0px 0px;
+    color:#929191;
+    font-family:'Arial Rounded MT';
+}
+th.bowlingteam{
+    padding:0px 60px 0px 0px;
+    color:#929191;
+    font-family:'Arial Rounded MT';
+}
+th.over {
+    padding:0px 50px 0px 0px;
+    color:#929191;
+    font-family:'Arial Rounded MT';
+}
+th.ball {
+    padding:0px 50px 0px 0px;
+    color:#929191;
+    font-family:'Arial Rounded MT';
+}
+th.batsman {
+    padding:0px 100px 0px 0px;
+    color:#929191;
+    font-family:'Arial Rounded MT';
+}
+th.non{
+    padding:0px 30px 0px 0px;
+    color:#929191;
+    font-family:'Arial Rounded MT';
+}
+th.bowler{
+    padding:0px 80px 0px 0px;
+    color:#929191;
+    font-family:'Arial Rounded MT';
+}
+th.is {
+    padding:0px 30px 0px 0px;
+    color:#929191;
+    font-family:'Arial Rounded MT';
+}
+th.wide{
+    padding:0px 50px 0px 0px;
+    color:#929191;
+    font-family:'Arial Rounded MT';
+}
+th.bye{
+    padding:0px 50px 0px 0px;
+    color:#929191;
+    font-family:'Arial Rounded MT';
+}
+th.leg{
+    padding:0px 50px 0px 0px;
+    color:#929191;
+    font-family:'Arial Rounded MT';
+}
+th.noball{
+    padding:0px 30px 0px 0px;
+    color:#929191;
+    font-family:'Arial Rounded MT';
+}
+th.penalty{
+    padding:0px 50px 0px 0px;
+    color:#929191;
+    font-family:'Arial Rounded MT';
+}
+th.batsmanruns{
+    padding:0px 100px 0px 0px;
+    color:#929191;
+    font-family:'Arial Rounded MT';
+}
+th.extra{
+    padding:0px 50px 0px 0px;
+    color:#929191;
+    font-family:'Arial Rounded MT';
+}
+th.total{
+    padding:0px 50px 0px 0px;
+    color:#929191;
+    font-family:'Arial Rounded MT';
+}
+th.player{
+    padding:0px 50px 0px 0px;
+    color:#929191;
+    font-family:'Arial Rounded MT';
+}
+th.dismissal{
+    padding:0px 50px 0px 0px;
+    color:#929191;
+    font-family:'Arial Rounded MT';
+}
+th.fielder{
+    padding:0px 50px 0px 0px;
+    color:#929191;
+    font-family:'Arial Rounded MT';
+}
+td{
+    padding:10px 0px;
+    color:#c60021;
+    font-family:'Arial Rounded MT';
+}

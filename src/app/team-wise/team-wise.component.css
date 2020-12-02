@@ -1,0 +1,39 @@
+.card {
+  border: none;
+  border-radius: 10px;
+  -webkit-box-shadow: 1px 1px 20px 3px #747272;
+          box-shadow: 1px 1px 20px 3px #747272;
+  padding: 3%;
+  margin: 3%;
+}
+
+h2 {
+  text-align: center;
+  font-size: 23px;
+  font-family: 'Arial Rounded MT';
+  color: #c60021;
+}
+
+p {
+  text-align: center;
+  font-size: 15px;
+  font-family: 'Arial Rounded MT';
+  color: #8a8888;
+}
+
+button {
+  border: none;
+  background: transparent;
+  width: 200px;
+  margin: auto;
+  display: block;
+  padding: 0.5%;
+  border-radius: 10px;
+  border: 2px solid #bebcbc;
+  color: #727070;
+  font-family: 'Arial Rounded MT';
+  text-align: center;
+  font-size: 15px;
+  letter-spacing: 2px;
+}
+/*# sourceMappingURL=team-wise.component.css.map */

@@ -1,0 +1,20 @@
+.navbar {
+    margin:1% 0%;
+    padding:0.2% 2%;
+    border-radius: 10px;
+    background-color:#e3e3e3;
+    box-shadow:1px 1px 20px 1px rgb(163, 163, 163);
+}
+.navbar-brand {
+    font-size:30px;
+    font-family: 'Arial Rounded MT';
+    color:#c60021;
+}
+.navbar-nav {
+    margin-left:30%;
+}
+div.navbar-nav .nav-link{
+    font-family:'Arial Rounded MT';
+    color:#919090;
+    font-size:17px;
+}

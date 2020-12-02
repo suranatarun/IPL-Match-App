@@ -1,0 +1,16 @@
+<div class="container">
+    <div class="row">
+        <div *ngFor="let teamwise of allteamwise" class="col-md-4">
+            <div class="card">
+                <h2>{{teamwise?.team}}</h2>
+                <p>{{teamwise?.home_wins}} Home Wins</p>
+                <p>{{teamwise?.away_wins}} Away Wins</p>
+                <p>{{teamwise?.home_matches}} Home Matches</p>
+                <p>{{teamwise?.away_matches}} Away Matches</p>
+                <p>{{teamwise?.home_win_percentage | number: '2.'}} Home Win Percentage</p>
+                <p>{{teamwise?.away_win_percentage | number: '2.'}} Away Win Percentage</p>
+                <button (click)="openDialog(teamwise)">Show Data</button>
+            </div>
+        </div>
+    </div>
+</div>

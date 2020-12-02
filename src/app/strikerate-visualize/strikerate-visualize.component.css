@@ -1,0 +1,9 @@
+div {
+  overflow: auto;
+}
+
+div, canvas {
+  padding: 10px;
+  text-decoration: none;
+}
+/*# sourceMappingURL=strikerate-visualize.component.css.map */

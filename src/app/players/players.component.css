@@ -1,0 +1,34 @@
+input {
+  padding: 1%;
+  width: 100%;
+  border-radius: 5px;
+  background: transparent;
+  -webkit-box-shadow: 3px 3px 20px 3px #c7c7c7;
+          box-shadow: 3px 3px 20px 3px #c7c7c7;
+  color: #5c5c5c;
+  border: none;
+}
+
+.card {
+  border-radius: 10px;
+  border: none;
+  height: 210px;
+  -webkit-box-shadow: 1px 1px 20px 3px #969696;
+          box-shadow: 1px 1px 20px 3px #969696;
+  margin: 3%;
+  padding: 2%;
+}
+
+h1 {
+  font-family: 'Arial Rounded MT';
+  font-size: 30px;
+  text-align: center;
+  color: #c60021;
+}
+
+p {
+  text-align: center;
+  font-family: 'Arial Rounded MT';
+  color: #5c5b5b;
+}
+/*# sourceMappingURL=players.component.css.map */

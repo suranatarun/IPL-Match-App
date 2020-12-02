@@ -1,0 +1,10 @@
+<div class="jumbotron text-center">
+    <h1 class="display-2">IPL Cricket League</h1>
+</div>
+<div class="container">
+    <div class="row">
+        <div *ngFor="let eachteam of teamsdata" class="col-md-4">
+                <mat-card>{{eachteam?.team1}}</mat-card>
+        </div>
+    </div>
+</div>

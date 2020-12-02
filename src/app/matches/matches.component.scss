@@ -1,0 +1,110 @@
+input {
+    padding:1%;
+    width:100%;
+    border-radius:5px;
+    background:transparent;
+    box-shadow:3px 3px 20px 3px rgb(199, 199, 199);
+    color:rgb(92, 92, 92);
+    border:none;
+}
+table {
+    margin-top:2%;
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+}
+th.id{
+    padding:0px 30px 0px 0px;
+    color:#929191;
+    font-family:'Arial Rounded MT';
+}
+th.season{
+    padding:0px 30px 0px 0px;
+    color:#929191;
+    font-family:'Arial Rounded MT';
+}
+th.city{
+    padding:0px 100px 0px 0px;
+    color:#929191;
+    font-family:'Arial Rounded MT';
+}
+th.date{
+    padding:0px 60px 0px 0px;
+    color:#929191;
+    font-family:'Arial Rounded MT';
+}
+th.team1 {
+    padding:0px 200px 0px 0px;
+    color:#929191;
+    font-family:'Arial Rounded MT';
+}
+th.team2 {
+    padding:0px 200px 0px 0px;
+    color:#929191;
+    font-family:'Arial Rounded MT';
+}
+th.tossw {
+    padding:0px 200px 0px 0px;
+    color:#929191;
+    font-family:'Arial Rounded MT';
+}
+th.tossd{
+    padding:0px 30px 0px 0px;
+    color:#929191;
+    font-family:'Arial Rounded MT';
+}
+th.result{
+    padding:0px 80px 0px 0px;
+    color:#929191;
+    font-family:'Arial Rounded MT';
+}
+th.dl {
+    padding:0px 30px 0px 0px;
+    color:#929191;
+    font-family:'Arial Rounded MT';
+}
+th.winner{
+    padding:0px 200px 0px 0px;
+    color:#929191;
+    font-family:'Arial Rounded MT';
+}
+th.winR{
+    padding:0px 50px 0px 0px;
+    color:#929191;
+    font-family:'Arial Rounded MT';
+}
+th.winW{
+    padding:0px 50px 0px 0px;
+    color:#929191;
+    font-family:'Arial Rounded MT';
+}
+th.pMatch{
+    padding:0px 100px 0px 0px;
+    color:#929191;
+    font-family:'Arial Rounded MT';
+}
+th.venue{
+    padding:0px 300px 0px 0px;
+    color:#929191;
+    font-family:'Arial Rounded MT';
+}
+th.um1{
+    padding:0px 200px 0px 0px;
+    color:#929191;
+    font-family:'Arial Rounded MT';
+}
+th.um2{
+    padding:0px 50px 0px 0px;
+    color:#929191;
+    font-family:'Arial Rounded MT';
+}
+th.um3{
+    padding:0px 50px 0px 0px;
+    color:#929191;
+    font-family:'Arial Rounded MT';
+}
+td{
+    padding:10px 0px;
+    color:#c60021;
+    font-family:'Arial Rounded MT';
+}

@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,GAAG,CAAC;EACA,QAAQ,EAAE,IAAI;CACjB;;AACD,AAAA,GAAG,EAAE,MAAM,CAAA;EACP,OAAO,EAAE,IAAI;EACb,eAAe,EAAE,IAAI;CACxB",
+    "sources": [
+        "team-wise-visualize.component.scss"
+    ],
+    "names": [],
+    "file": "team-wise-visualize.component.css"
+}

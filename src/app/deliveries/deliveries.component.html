@@ -1,0 +1,58 @@
+<input type="text" placeholder="Search" [(ngModel)]="search">
+<div>
+    <div style="overflow-x:auto;">
+        <table>
+           <thead>
+            <tr>
+                <th scope="col" class="match_id">MatchID</th>
+                <th scope="col" class="inning">Inning</th>
+                <th scope="col" class="battingteam">Batting_Team</th>
+                <th scope="col" class="bowlingteam">Bowling_Team</th>
+                <th scope="col" class="over">Over</th>
+                <th scope="col" class="ball">Ball</th>
+                <th scope="col" class="batsman">Batsman</th>
+                <th scope="col" class="non">Non_Striker</th>
+                <th scope="col" class="bowler">Bowler</th>
+                <th scope="col" class="is">Is_Super_Over</th>
+                <th scope="col" class="wide">Wide_Runs</th>
+                <th scope="col" class="bye">By_Runs</th>
+                <th scope="col" class="leg">LegBy_Runs</th> 
+                <th scope="col" class="noball">NoBall_Runs</th>
+                <th scope="col" class="penalty">Penalty_Runs</th>
+                <th scope="col" class="batsmanruns">Batsman_Runs</th>
+                <th scope="col" class="extra">Extra_Runs</th>
+                <th scope="col" class="total">Total_Runs</th>
+                <th scope="col" class="player">Player_Dismissed</th>
+                <th scope="col" class="dismissal">Dismissal_Kind</th>
+                <th scope="col" class="fielder">Fielder</th>
+            </tr>
+           </thead>
+           <tbody>
+            <tr *ngFor="let eachdelivery of alldeliveries | paginate: { itemsPerPage: 500, currentPage: p } | filter: search">
+                <td>{{eachdelivery?.match_id}}</td>
+                <td>{{eachdelivery?.inning}}</td>
+                <td>{{eachdelivery?.batting_team}}</td>
+                <td>{{eachdelivery?.bowling_team}}</td>
+                <td>{{eachdelivery?.over}}</td>
+                <td>{{eachdelivery?.ball}}</td>
+                <td>{{eachdelivery?.batsman}}</td>
+                <td>{{eachdelivery?.non_striker}}</td>
+                <td>{{eachdelivery?.bowler}}</td>
+                <td>{{eachdelivery?.is_super_over}}</td>
+                <td>{{eachdelivery?.wide_runs}}</td>
+                <td>{{eachdelivery?.bye_runs}}</td>
+                <td>{{eachdelivery?.legbye_runs}}</td>
+                <td>{{eachdelivery?.noball_runs}}</td>
+                <td>{{eachmatch?.penalty_runs}}</td>
+                <td>{{eachdelivery?.batsman_runs}}</td>
+                <td>{{eachdelivery?.extra_runs}}</td>
+                <td>{{eachdelivery?.total_runs}}</td>
+                <td>{{eachdelivery?.player_dismissed}}</td>
+                <td>{{eachdelivery?.dismissal_kind}}</td>
+                <td>{{eachdelivery?.fielder}}</td>
+            </tr>
+           </tbody>
+        </table>
+    </div>
+    <pagination-controls (pageChange)="p = $event"></pagination-controls>
+</div>
