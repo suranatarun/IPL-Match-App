@@ -25,3 +25,5 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+Team page time : 1000ms    Deliveries page time: 1100ms      Matches page time: 800ms      Strikerate page time: 800ms     IPL-Players page time: 1300ms      TeamWise-Venue: 780ms These all pages time calculate using Chrome Inspect elements. I see all page time in Network Tab.
